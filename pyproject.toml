@@ -1,0 +1,19 @@
+[project]
+name = "playright-python"
+version = "0.1.0"
+description = "A Python Playright Automation Framework"
+authors = [
+    {name = "Nick Baynham", email = "nickbaynham@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.13"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
