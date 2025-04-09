@@ -1,4 +1,10 @@
 # playwright-python
+playwright-python is a python based automation framework.
+
+## Setting up your environment from scratch and running the tests
+```shell
+make
+```
 
 ## Initialize a new project
 ```shell
