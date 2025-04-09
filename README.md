@@ -1,6 +1,11 @@
 # playwright-python
 playwright-python is a python based automation framework.
 
+## Requirements to run make shell command
+```shell
+brew install make
+```
+
 ## Setting up your environment from scratch and running the tests
 ```shell
 make
