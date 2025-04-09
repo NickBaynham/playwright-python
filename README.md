@@ -15,4 +15,15 @@ pdm add BeautifulSoup # Example dependency
 pdm run python simple-webcrawler.py
 ```
 
+### Installing Playwright
+```shell
+pdm add pytest-playwright
+pdm run python -m playwright install
+```
+
+### Running Tests
+```shell
+pdm run pytest
+```
+
 
