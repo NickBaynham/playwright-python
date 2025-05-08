@@ -6,6 +6,7 @@ all: init install_browsers test
 # Step 1: Initialize the environment (install dependencies)
 init:
 	pdm install
+	pdm list
 
 # Step 2: Install Playwright browser binaries
 install_browsers:

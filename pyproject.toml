@@ -5,7 +5,7 @@ description = "A Python Playright Automation Framework"
 authors = [
     {name = "Nick Baynham", email = "nickbaynham@gmail.com"},
 ]
-dependencies = ["pytest-playwright>=0.7.0", "pytest>=8.3.5", "pytest-asyncio>=0.26.0"]
+dependencies = ["pytest-playwright>=0.7.0", "pytest>=8.3.5", "pytest-asyncio>=0.26.0", "langchain>=0.3.25", "openai>=1.78.0", "playwright>=1.52.0", "langgraph>=0.4.3", "typer>=0.15.3", "rich>=14.0.0"]
 requires-python = ">=3.13"
 readme = "README.md"
 license = {text = "MIT"}
@@ -21,4 +21,7 @@ distribution = true
 [dependency-groups]
 dev = [
     "pytest>=8.3.5",
+    "ruff>=0.11.8",
+    "black>=25.1.0",
+    "mypy>=1.15.0",
 ]
