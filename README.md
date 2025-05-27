@@ -55,5 +55,7 @@ Verify with:
 pdm list
 ```
 
-
-
+Run a script
+```shell
+pdm run calgentik.py
+```
